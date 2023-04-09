@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji{
+    font-size: 5rem;
+    cursor: pointer;
+    user-select: none;
+    padding: 1rem;
+}
+
+
+.closed{
+    display: none;
+}
+
+.open{
+    display: none;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.active{
+    display: block;
+    
+}
+
+a{
+    text-decoration: none;
+}
