@@ -5,23 +5,19 @@ const openemoji = document.querySelector(".open");
 // console.log(activeemoji.textContent);
 // console.log(openemoji.textContent);
 
-activeemoji.addEventListener("click",(event)=>{
-    // event.preventDefault();
-    activeemoji.style.display = "none";
-    openemoji.style.display = "block";
+activeemoji.addEventListener("click", (event) => {
+  // event.preventDefault();
+  activeemoji.style.display = "none";
+  openemoji.style.display = "flex";
+});
 
-}) 
+openemoji.addEventListener("click", (event) => {
+  // event.preventDefault();
+  openemoji.style.display = "none";
+  activeemoji.style.display = "flex";
+});
 
-openemoji.addEventListener("click",(event)=>{
-    // event.preventDefault();
-    openemoji.style.display = "none";
-    activeemoji.style.display = "block";
-
-}) 
-
-
-
-// From Video 
+// From Video
 // const closedemoji = document.querySelector(".closed");
 // const openemoji = document.querySelector(".open");
 
